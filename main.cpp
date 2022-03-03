@@ -7,6 +7,11 @@ class Country {
     Country(const std::string &name, size_t population) : name(name), population(population) {
     }
 
+    void print() {
+        std::cout << "Country " << name << std::endl;
+        std::cout << "population: " << population << std::endl;
+    }
+
   private:
     size_t population;
     std::string name;
