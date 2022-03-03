@@ -19,9 +19,9 @@ class Country {
 
 int main() {
 
-    std::cout << "Hi, VCS!" << std::endl;
+    std::cout << "Hi, VCS! New release" << std::endl;
 
-    if (rand() % 2) {
+    if (rand() % 2, false) {
         std::cout << "small bug" << std::endl;
     }
 
