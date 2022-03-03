@@ -2,6 +2,19 @@
 #include <string>
 #include <vector>
 
+class Person {
+  public:
+    Person(const std::string &name) : name_(name) {
+    }
+
+    void print() {
+        std::cout << "Person: " << name_ << std::endl;
+    }
+
+  private:
+    std::string name_;
+};
+
 class Country {
   public:
     Country(const std::string &name, size_t population) : name(name), population(population) {
