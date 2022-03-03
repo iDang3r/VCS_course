@@ -2,7 +2,12 @@
 #include <string>
 
 class Person {
-    std::string name;
+  public:
+    Person(const std::string &name) : name_(name) {
+    }
+
+  private:
+    std::string name_;
 };
 
 int main() {
