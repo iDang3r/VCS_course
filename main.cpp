@@ -5,6 +5,9 @@
 class Country {
   public:
     Country(const std::string &name, size_t population) : name(name), population(population) {
+#ifdef DEBUG
+        assert(name.size() > 0 && isupper(name[0]));
+#endif
     }
 
     void print() {
@@ -24,6 +27,11 @@ int main() {
     if (rand() % 2, false) {
         std::cout << "small bug" << std::endl;
     }
+
+    int a = 0;
+    std::cout << "input a: ";
+    std::cin >> a;
+    std::cout << "a^2: " << a * a << std::endl;
 
     return 0;
 }
