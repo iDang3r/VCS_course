@@ -1,4 +1,11 @@
 #include <iostream>
+#include <string>
+#include <vector>
+
+class Country {
+    size_t population;
+    std::string name;
+};
 
 int main() {
 
