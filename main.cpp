@@ -5,6 +5,9 @@
 class Country {
   public:
     Country(const std::string &name, size_t population) : name(name), population(population) {
+#ifdef DEBUG
+        assert(name.size() > 0 && isupper(name[0]));
+#endif
     }
 
     void print() {
