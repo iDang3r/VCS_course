@@ -28,5 +28,9 @@ int main() {
         std::cout << "small bug" << std::endl;
     }
 
+    int a = 0;
+    std::cin >> a;
+    std::cout << a * a << std::endl;
+
     return 0;
 }
