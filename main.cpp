@@ -46,5 +46,7 @@ int main() {
     std::cin >> a;
     std::cout << "a^2: " << a * a << std::endl;
 
+    std::cout << "Last develop commit" << std::endl;
+
     return 0;
 }
