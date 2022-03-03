@@ -29,8 +29,9 @@ int main() {
     }
 
     int a = 0;
+    std::cout << "input a: ";
     std::cin >> a;
-    std::cout << a * a << std::endl;
+    std::cout << "a^2: " << a * a << std::endl;
 
     return 0;
 }
