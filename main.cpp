@@ -6,6 +6,10 @@ class Person {
     Person(const std::string &name) : name_(name) {
     }
 
+    void print() {
+        std::cout << "Person: " << name_ << std::endl;
+    }
+
   private:
     std::string name_;
 };
