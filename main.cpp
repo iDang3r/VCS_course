@@ -4,7 +4,7 @@
 
 int main() {
 
-    std::cout << "Hi, VCS!" << std::endl;
+    std::cout << "Hi, VCS! New release" << std::endl;
 
     if (rand() % 2) {
         std::cout << "small bug" << std::endl;
